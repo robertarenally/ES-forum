@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".tela_inicial" />
-        <activity android:name=".cod_seguranca"></activity>
+        <activity android:name=".cod_seguranca" />
+        <activity android:name=".cadastro"></activity>
     </application>
 
 </manifest>

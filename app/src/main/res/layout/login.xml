@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingTop="100dp"
+        android:paddingTop="20dp"
         tools:layout_editor_absoluteX="48dp"
         tools:layout_editor_absoluteY="49dp"
         tools:ignore="MissingConstraints">
@@ -19,6 +19,27 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
+            android:hint="Nome"
+            android:background="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:hint="Sexo"
+            android:background="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:background="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
             android:hint="Username"
             android:background="#ffffff"/>
         <EditText
@@ -28,12 +49,19 @@
             android:layout_marginTop="10dp"
             android:hint="Password"
             android:background="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Confirm the password"
+            android:background="#ffffff"/>
         <Button
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
-            android:text="Login"
+            android:layout_marginTop="10dp"
+            android:text="Cadastrar"
             android:textColor="#ffffff"
             android:background="#ff00ff"/>
     </LinearLayout>
