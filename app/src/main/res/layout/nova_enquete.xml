@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ff6eb6ff"
-    tools:context="com.forum.forum.cadastro">
+    tools:context="com.forum.forum.nova_enquete">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -19,49 +19,42 @@
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:hint="Nome"
+            android:hint="Assunto"
             android:background="#ffffff"/>
         <EditText
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
             android:layout_gravity="center"
-            android:hint="Sexo"
+            android:hint="Área de conhecimento"
             android:background="#ffffff"/>
         <EditText
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:hint="Email"
+            android:hint="Disciplina"
             android:background="#ffffff"/>
         <EditText
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:hint="Username"
+            android:hint="Conteúdo"
             android:background="#ffffff"/>
         <EditText
             android:layout_width="300dp"
-            android:layout_height="60dp"
+            android:layout_height="120dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:hint="Password"
-            android:background="#ffffff"/>
-        <EditText
-            android:layout_width="300dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:hint="Confirm the password"
+            android:hint="Descrição"
             android:background="#ffffff"/>
         <Button
             android:layout_width="300dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Cadastrar"
+            android:text="Postar"
             android:textColor="#ffffff"
             android:background="#ff00ff"/>
     </LinearLayout>
