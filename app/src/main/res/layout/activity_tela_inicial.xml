@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.forum.forum.tela_inicial">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        tools:context=".MainActivity"
+        android:background="#ff6eb6ff">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="151dp"
+            android:text="UnB_Mentor"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffffff"
+            android:textSize="@dimen/abc_text_size_display_3_material" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_gravity="center"
+            android:layout_marginTop="57dp"
+            android:background="#ff00ff"
+            android:text="Login"
+            android:textColor="#ffffff"
+            android:id="@+id/button" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_alignLeft="@+id/button"
+            android:layout_alignStart="@+id/button"
+            android:layout_below="@+id/button"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:background="#ff00ff"
+            android:text="Cadastro"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
