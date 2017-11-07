@@ -19,7 +19,8 @@
         <activity android:name=".tela_inicial" />
         <activity android:name=".cod_seguranca" />
         <activity android:name=".cadastro" />
-        <activity android:name=".nova_enquete"></activity>
+        <activity android:name=".nova_enquete" />
+        <activity android:name=".tela_usuario"></activity>
     </application>
 
 </manifest>

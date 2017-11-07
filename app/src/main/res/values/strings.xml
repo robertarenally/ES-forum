@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Forum</string>
+    <string name="title_telaforum_list">Items</string>
+    <string name="title_telaforum_detail">tela_forum Detail</string>
 </resources>
