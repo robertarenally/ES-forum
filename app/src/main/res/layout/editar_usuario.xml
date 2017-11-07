@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.forum.forum.tela_usuario">
+    tools:context="com.forum.forum.editar_usuario">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#ff6eb6ff"
         android:orientation="vertical"
-        android:paddingTop="50dp"
+        android:paddingTop="10dp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="0dp">
@@ -23,29 +23,49 @@
             android:background="@android:drawable/alert_dark_frame"
             android:contentDescription="Editar"
             app:srcCompat="@android:drawable/btn_star" />
-        <Button
+        <EditText
             android:layout_width="300dp"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
-            android:layout_marginTop="60dp"
-            android:background="#ff00ff"
-            android:text="Editar Perfil"
-            android:textColor="#ffffff" />
+            android:hint="Nome"
+            android:background="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:hint="Sexo"
+            android:background="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Email"
+            android:background="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:hint="Username"
+            android:background="#ffffff"/>
         <Button
             android:layout_width="300dp"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:background="#ff00ff"
-            android:text="Forum"
+            android:text="Mudar Senha"
             android:textColor="#ffffff" />
         <Button
             android:layout_width="300dp"
-            android:layout_height="60dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:background="#ff00ff"
-            android:text="Nova Enquete"
+            android:text="OK"
             android:textColor="#ffffff" />
     </LinearLayout>
+
 </android.support.constraint.ConstraintLayout>

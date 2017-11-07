@@ -20,7 +20,10 @@
         <activity android:name=".cod_seguranca" />
         <activity android:name=".cadastro" />
         <activity android:name=".nova_enquete" />
-        <activity android:name=".tela_usuario"></activity>
+        <activity android:name=".tela_usuario" />
+        <activity android:name=".tela_forum" />
+        <activity android:name=".editar_usuario" />
+        <activity android:name=".editar_senha"></activity>
     </application>
 
 </manifest>
