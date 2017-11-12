@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.forum.forum.continuacao_cadastro">
+
+    <LinearLayout
+        android:background="#ff6eb6ff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="49dp"
+        tools:ignore="MissingConstraints">
+
+        <CheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Área de Conhecimento:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff" />
+        <CheckBox
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Exatas"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"/>
+        <CheckBox
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Humanas"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"/>
+        <CheckBox
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Saúde"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            android:hint="Curso do Aluno(a)"
+            android:background="#ffffff"/>
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:hint="Disciplinas disposto a tirar duvidas" />
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="#ff00ff"
+            android:text="Cadastrar"
+            android:textColor="#ffffff"
+            android:onClick="startTelaUsuario"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

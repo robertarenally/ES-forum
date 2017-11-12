@@ -39,7 +39,8 @@
             android:background="#ff00ff"
             android:text="Login"
             android:textColor="#ffffff"
-            android:id="@+id/button" />
+            android:id="@+id/button"
+            android:onClick="startLogin"/>
         <Button
             android:layout_width="300dp"
             android:layout_height="60dp"
@@ -50,7 +51,8 @@
             android:layout_marginTop="32dp"
             android:background="#ff00ff"
             android:text="Cadastro"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="startCadastro"/>
     </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

@@ -37,7 +37,8 @@
             android:layout_marginTop="60dp"
             android:text="OK"
             android:textColor="#ffffff"
-            android:background="#ff00ff"/>
+            android:background="#ff00ff"
+            android:onClick="startLogin"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

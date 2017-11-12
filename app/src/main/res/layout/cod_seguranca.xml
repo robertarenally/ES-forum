@@ -28,7 +28,8 @@
             android:layout_marginTop="50dp"
             android:text="ok"
             android:textColor="#ffffff"
-            android:background="#ff00ff"/>
+            android:background="#ff00ff"
+            android:onClick="startTelaUsuario"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

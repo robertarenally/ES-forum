@@ -23,7 +23,8 @@
         <activity android:name=".tela_usuario" />
         <activity android:name=".tela_forum" />
         <activity android:name=".editar_usuario" />
-        <activity android:name=".editar_senha"></activity>
+        <activity android:name=".editar_senha" />
+        <activity android:name=".continuacao_cadastro"></activity>
     </application>
 
 </manifest>

@@ -30,7 +30,8 @@
             android:layout_marginTop="60dp"
             android:background="#ff00ff"
             android:text="Editar Perfil"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="startEditarPerfil"/>
         <Button
             android:layout_width="300dp"
             android:layout_height="60dp"
@@ -38,7 +39,8 @@
             android:layout_marginTop="10dp"
             android:background="#ff00ff"
             android:text="Forum"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="startForum"/>
         <Button
             android:layout_width="300dp"
             android:layout_height="60dp"
@@ -46,6 +48,7 @@
             android:layout_marginTop="10dp"
             android:background="#ff00ff"
             android:text="Nova Enquete"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="startNovaEnquete"/>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

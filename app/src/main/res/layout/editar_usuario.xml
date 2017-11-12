@@ -57,7 +57,8 @@
             android:layout_marginTop="10dp"
             android:background="#ff00ff"
             android:text="Mudar Senha"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="startEditarSenha"/>
         <Button
             android:layout_width="300dp"
             android:layout_height="50dp"
@@ -65,7 +66,8 @@
             android:layout_marginTop="10dp"
             android:background="#ff00ff"
             android:text="OK"
-            android:textColor="#ffffff" />
+            android:textColor="#ffffff"
+            android:onClick="startTelaUsuario"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

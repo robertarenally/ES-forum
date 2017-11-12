@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ff6eb6ff"
     tools:context="com.forum.forum.cadastro">
 
     <LinearLayout
+        android:background="#ff6eb6ff"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -61,9 +61,10 @@
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Cadastrar"
+            android:text="Continuar"
             android:textColor="#ffffff"
-            android:background="#ff00ff"/>
+            android:background="#ff00ff"
+            android:onClick="startContinuacaoCadastro"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>

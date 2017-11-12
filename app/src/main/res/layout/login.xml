@@ -37,7 +37,8 @@
             android:layout_marginTop="60dp"
             android:text="Login"
             android:textColor="#ffffff"
-            android:background="#ff00ff"/>
+            android:background="#ff00ff"
+            android:onClick="startTelaUsuario"/>
         <Button
             android:layout_width="300dp"
             android:layout_height="60dp"
@@ -45,7 +46,8 @@
             android:layout_marginTop="10dp"
             android:text="Esqueci a Senha"
             android:textColor="#ffffff"
-            android:background="#ff00ff"/>
+            android:background="#ff00ff"
+            android:onClick="startEditarSenha"/>
     </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
